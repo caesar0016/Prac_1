@@ -43,6 +43,9 @@ public class Savings_System {
     System.out.print("Enter netpay:");
     int netpay = Zavings.nextInt();
     System.out.println("your savings " + "" + netpay);
+    
+    
+    
     }
     
 }

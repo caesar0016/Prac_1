@@ -18,10 +18,40 @@ public class Practice_1 {
      */
     public static void main(String[] args) {
     
-        double profit_1 = (1000000);
-        double profit_2 = (2000000);
+        Scanner prac_1 = new Scanner(System.in);
+        System.out.print("Enter number:");
         
-        System.out.println("Average Profit: " + profit_1/profit_2);
+        int pass_1 = prac_1.nextInt();
+        
+        if ( pass_1 >= 90 && pass_1 <=100 ){
+            System.out.println("Class S");
+       
+        }   else if ( pass_1 >= 85 && pass_1 <=89 ){
+            System.out.println("Class A");
+        
+        }   else if ( pass_1 >= 80 && pass_1 <= 84 ){
+            System.out.println("Class B");
+        
+        }   else if (pass_1 >= 75 && pass_1 <= 79 ){
+            System.out.println("Class C");
+            
+        }   else if (pass_1 >= 1 && pass_1 <= 74){
+            System.out.println("Class F");
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     }
        }
